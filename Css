@@ -1,0 +1,127 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Utility */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: #666;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    margin-bottom: 2rem;
+}
+
+/* Services */
+.services {
+    padding: 3rem 0;
+}
+
+.service-box {
+    flex: 1;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+.service-box i {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Featured Gigs */
+.featured-gigs {
+    padding: 3rem 0;
+}
+
+.gig-box {
+    flex: 1;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+.gig-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.gig-box h3 {
+    margin-bottom: 1rem;
+}
+
+.gig-box p {
+    margin-bottom: 2rem;
+}
+
+/* Footer */
+footer {
+    padding: 2rem 0;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
